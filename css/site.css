@@ -1,0 +1,10 @@
+ul.link_list
+{
+  list-style:     none;
+  margin-left:    0px;
+}
+
+ul.link_list li
+{
+  margin: 5px;
+}

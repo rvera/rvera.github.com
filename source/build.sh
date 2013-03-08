@@ -1,0 +1,1 @@
+haml index.html.haml ../index.html
