@@ -1,8 +1,10 @@
 body {
   padding-top: 20px;
   padding-bottom: 40px; }
-  body .center {
-    text-align: center; }
+  body h2 {
+    padding-bottom: 9px;
+    margin: 20px 0 30px;
+    border-bottom: 1px solid #eeeeee; }
 
 .project {
   margin-bottom: 64px; }
