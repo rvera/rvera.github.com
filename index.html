@@ -21,199 +21,229 @@
           Thanks for stopping by. Here you'll find some of my personal projects I've worked on over the years.
         </p>
       </div>
-      <div class='row'>
-        <div class='span8'>
-          <h2>Image Picker</h2>
-          <p>
-            Image Picker is a simple jQuery plugin that transforms a select element into a more user-friendly graphical interface.
-          </p>
-          <h3>Check it out!</h3>
-          <p>
-            <select class='image-picker'>
-              <option data-img-src='http://placekitten.com/400/150' value='1'>Cute Kitten 1</option>
-              <option data-img-src='http://placekitten.com/150/150' value='2'>Cute Kitten 2</option>
-              <option data-img-src='http://placekitten.com/100/150' value='3'>Cute Kitten 3</option>
-              <option data-img-src='http://placekitten.com/450/151' value='4'>Cute Kitten 4</option>
-            </select>
-            <script>
-              jQuery("select.image-picker").imagepicker({
-                hide_select:  false,
-              });
-            </script>
-          </p>
+      <div class='project'>
+        <div class='row'>
+          <div class='span12'>
+            <h2>Image Picker</h2>
+          </div>
         </div>
-        <div class='span4'>
-          <div class='well'>
-            <h3>Want to see more?</h3>
-            <ul class='link_list'>
-              <li>
-                <a href='http://rvera.github.com/image-picker/'>
-                  Visit the project page
-                </a>
+        <div class='row'>
+          <div class='span8'>
+            <p class='desc'>
+              Image Picker is a simple jQuery plugin that transforms a select element into a more
+              user-friendly graphical interface. I found myself using 'select' form elements a lot despite
+              not really liking them that much; They don't either present all the available options in
+              a good way nor are very user friendly on mobile devices (radio buttons are not really better).
+              This plugin was created to solve both of these problems, so far it works very well and seems
+              to well received by the web developer community.
+            </p>
+            <h3>Check it out!</h3>
+            <p>
+              <select class='image-picker'>
+                <option data-img-src='http://placekitten.com/400/150' value='1'>Cute Kitten 1</option>
+                <option data-img-src='http://placekitten.com/150/150' value='2'>Cute Kitten 2</option>
+                <option data-img-src='http://placekitten.com/100/150' value='3'>Cute Kitten 3</option>
+                <option data-img-src='http://placekitten.com/450/151' value='4'>Cute Kitten 4</option>
+              </select>
+              <script>
+                jQuery("select.image-picker").imagepicker({
+                  hide_select:  false,
+                });
+              </script>
+            </p>
+          </div>
+          <div class='span4'>
+            <div class='see_more well'>
+              <h3>Want to see more?</h3>
+              <ul class='link_list'>
+                <li>
+                  <a href='http://rvera.github.com/image-picker/'>
+                    Visit the project page
+                  </a>
+                </li>
+                <li>
+                  <a href='https://github.com/rvera/image-picker'>
+                    View on Github
+                  </a>
+                </li>
+              </ul>
+              <a class='btn btn-success' href='https://github.com/rvera/image-picker/archive/master.zip'>
+                Download it
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class='project'>
+        <div class='row'>
+          <div class='span12'>
+            <h2>EDIPS: an Easy to Deploy Indoor Positioning System</h2>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='span8'>
+            <p class='desc'>
+              I'm what you might call a prehistoric mobile developer. I used to develop
+              applications for the Java Micro Edition, Blackberry and Windows Mobile platforms
+              in a time when those platforms where actually relevant.
+              EDIPS is the offspring of the knowledge I had with my passion at the time for
+              indoor positioning systems. I'd love to work on a similar project now, the technology
+              is much closer to the point of making a tool like this a reality.
+              <br>
+              <br>
+              While similar applications exists, none of them are very practical when it comes to
+              actually deploying them in the real world. EDIPS sacrifices some accuracy in order to
+              actually make the initial deployment as fast as possible.
+            </p>
+          </div>
+          <div class='span4'>
+            <div class='see_more well'>
+              <h3>Want to see more?</h3>
+              <ul class='link_list'>
+                <li>
+                  <a href='http://dl.acm.org/citation.cfm?id=1969442'>
+                    ACM Link
+                  </a>
+                </li>
+              </ul>
+              <a class='btn btn-success' href='downloads/edips.pdf'>
+                Download the paper
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='span12'>
+            <h3>Have some screens</h3>
+            <ul class='thumbnails'>
+              <li class='span3'>
+                <div class='thumbnail'>
+                  <a href='img/edips2.png'>
+                    <img src='img/edips2.png'>
+                  </a>
+                </div>
               </li>
-              <li>
-                <a href='https://github.com/rvera/image-picker'>
-                  View on Github
-                </a>
+              <li class='span3'>
+                <p class='muted'>
+                  The app builds a manet with the current users in the area and
+                  shares your position with the rest of the users on the environment.
+                </p>
               </li>
-              <li>
-                <a class='btn btn-success' href='https://github.com/rvera/image-picker/archive/master.zip'>
-                  Download it
-                </a>
+              <li class='span3'>
+                <div class='thumbnail'>
+                  <a href='img/edips1.png'>
+                    <img src='img/edips1.png'>
+                  </a>
+                </div>
+              </li>
+              <li class='span3'>
+                <p class='muted'>
+                  The app takes advantage of the motion sensors on the device and communicates
+                  to other users whether you are still or moving around. It also uses this
+                  information to make better guessings about your current position.
+                </p>
               </li>
             </ul>
           </div>
         </div>
+        <hr>
       </div>
-      <hr>
-      <div class='row'>
-        <div class='span8'>
-          <h2>EDIPS: an Easy to Deploy Indoor Positioning System</h2>
-          <p>
-            I'm what you might call a prehistoric mobile developer. I used to develop
-            applications for the Java Micro Edition, Blackberry and Windows Mobile platforms
-            in a time when those platforms where actually relevant.
-            EDIPS is the offspring of the knowledge I had with my passion at the time for
-            indoor positioning systems. I'd love to work on a similar project now, the technology
-            is much closer to the point of making a tool like this a reality.
-            <br>
-            <br>
-            While similar applications exists, none of them are very practical when it comes to
-            actually deploying them in the real world. EDIPS sacrifices some accuracy in order to
-            actually make the initial deployment as fast as possible.
-          </p>
-        </div>
-        <div class='span4'>
-          <div class='well'>
-            <h3>Want to see more?</h3>
-            <ul class='link_list'>
-              <li>
-                <a class='btn btn-success' href='downloads/edips.pdf'>
-                  Download the paper
-                </a>
-              </li>
-            </ul>
+      <div class='project'>
+        <div class='row'>
+          <div class='span12'>
+            <h2>Jumping Cat Adventures</h2>
           </div>
         </div>
+        <div class='row'>
+          <div class='span8'>
+            <p class='desc'>
+              This a game I made a long time ago for my sisters.
+              They were the best QA I ever had, seriously. It's a game that while challenging
+              you can't really die on it. It also employs a very simplistic one button contol method;
+              just point in the direction where you want to jump and hold the mouse button, the
+              longer you hold it the stronger the jump will be.
+              <br>
+              <br>
+              The game was built using GameMaker so it only works on Windows. It should
+              still work on modern machine but can't say for sure. Haven't used a Windows
+              machine in a long, long, time.
+              <br>
+              <br>
+              I did most of the programming and my girlfriend at the time helped
+              me with the pixel art. We even won a contest with this game but I'm still waiting
+              for my first place prize, the sponsoring game company never gave it to me (if someone
+              from Wanako Studios/Behaviour Santiago is reading this, it's never too late!)
+            </p>
+            <h3>It even has an awesome trailer!</h3>
+            <p>
+              <iframe width="640" height="480" src="http://www.youtube.com/embed/0Ucfzr1oi98" frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>
+          <div class='span4'>
+            <div class='see_more well'>
+              <h3>Want to see more?</h3>
+              <ul class='link_list'>
+                <li>
+                  <a href='http://www.youtube.com/watch?v=0Ucfzr1oi98'>
+                    See the trailer
+                  </a>
+                </li>
+                <li>
+                  <a href='http://web.ing.puc.cl/~iic3686/juegos2006-2.html'>
+                    1st prize winner!
+                  </a>
+                </li>
+              </ul>
+              <a class='btn btn-success' href='downloads/JumpingCat.exe'>
+                Download it
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
       </div>
-      <div class='row'>
-        <div class='span12'>
-          <h3>Have some screens</h3>
-          <ul class='thumbnails'>
-            <li class='span3'>
-              <div class='thumbnail'>
-                <a href='img/edips2.png'>
-                  <img src='img/edips2.png'>
-                </a>
-              </div>
-            </li>
-            <li class='span3'>
-              <p class='muted'>
-                The app builds a manet with the current users in the area and
-                shares your position with the rest of the users on the environment.
+      <div class='small_projects'>
+        <div class='row'>
+          <div class='span12'>
+            <h2>Other small projects</h2>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='span6'>
+            <div class='small_project'>
+              <img class='thumb img-rounded img-polaroid' src='img/matrimonio.png'>
+              <h3>Wedding Invitation</h3>
+              <p class='desc'>
+                This is a small Heroku app that I made over a weekend to invite,
+                manage and track the invitations to my wedding.
               </p>
-            </li>
-            <li class='span3'>
-              <div class='thumbnail'>
-                <a href='img/edips1.png'>
-                  <img src='img/edips1.png'>
+              <p>
+                <a class='btn btn-success' href='http://rodrigoysara.herokuapp.com/invitacion/2e957f20-7530-012f-dbc1-12313926dced'>
+                  View an example
                 </a>
-              </div>
-            </li>
-            <li class='span3'>
-              <p class='muted'>
-                The app takes advantage of the motion sensors on the device and communicates
-                to other users whether you are still or moving around. It also uses this
-                information to make better guessings about your current position.
               </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-      <div class='row'>
-        <div class='span8'>
-          <h2>Jumping Cat Adventures</h2>
-          <p>
-            This a game I made a long time ago for my sisters.
-            They were the best QA I ever had, seriously. It's a game that while challenging
-            you can't really die on it. It also employs a very simplistic one button contol method;
-            just point in the direction where you want to jump and hold the mouse button, the
-            longer you hold it the stronger the jump will be.
-            <br>
-            <br>
-            The game was built using GameMaker so it only works on Windows. It should
-            still work on modern machine but can't say for sure. Haven't used a Windows
-            machine in a long, long, time.
-            <br>
-            <br>
-            I did most of the programming and my girlfriend at the time helped
-            me with the pixel art. We even won a contest with this game but I'm still waiting
-            for my first place prize, the sponsoring game company never gave it to me (if someone
-            from Wanako Studios/Behaviour Santiago is reading this, it's never too late!)
-          </p>
-          <h3>It even has an awesome trailer!</h3>
-          <p>
-            <iframe width="640" height="480" src="http://www.youtube.com/embed/0Ucfzr1oi98" frameborder="0" allowfullscreen></iframe>
-          </p>
-        </div>
-        <div class='span4'>
-          <div class='well'>
-            <h3>Want to see more?</h3>
-            <ul class='link_list'>
-              <li>
-                <a href='http://www.youtube.com/watch?v=0Ucfzr1oi98'>
-                  See the trailer
+            </div>
+          </div>
+          <div class='span6'>
+            <div class='small_project'>
+              <img class='thumb img-rounded img-polaroid' src='img/chalk_noir.png'>
+              <h3>Chalk Noir</h3>
+              <p class='desc'>
+                This is a small proof of concept game that I made while learning C++,
+                OpenGL and SDL. Among the myriad of unfinished games I've made over the years
+                I actually like this one a lot.
+              </p>
+              <p>
+                <a class='btn btn-success' href='downloads/chalk_noir.rar'>
+                  Download
                 </a>
-              </li>
-              <li>
-                <a href='http://web.ing.puc.cl/~iic3686/juegos2006-2.html'>
-                  1st prize winner!
-                </a>
-              </li>
-              <li>
-                <a class='btn btn-success' href='downloads/JumpingCat.exe'>
-                  Download it
-                </a>
-              </li>
-            </ul>
+              </p>
+            </div>
           </div>
         </div>
+        <hr>
       </div>
-      <hr>
-      <div class='row'>
-        <div class='span12'>
-          <h2>Other small projects</h2>
-        </div>
-        <div class='span6 center'>
-          <img class='small_project_image img-rounded img-polaroid' src='img/matrimonio.png'>
-          <h3>Wedding Invitation</h3>
-          <p>
-            This is a small Heroku app that I made over a weekend to invite,
-            manage and track the invitations to my wedding.
-          </p>
-          <p class='center'>
-            <a class='btn btn-success' href='http://rodrigoysara.herokuapp.com/invitacion/2e957f20-7530-012f-dbc1-12313926dced'>
-              View an example
-            </a>
-          </p>
-        </div>
-        <div class='span6 center'>
-          <img class='small_project_image img-rounded img-polaroid' src='img/chalk_noir.png'>
-          <h3>Chalk Noir</h3>
-          <p>
-            This is a small proof of concept game that I made while learning C++,
-            OpenGL and SDL. Among the myriad of unfinished games I've made over the years
-            I actually like this one a lot.
-          </p>
-          <p class='center'>
-            <a class='btn btn-success' href='downloads/chalk_noir.rar'>
-              Download
-            </a>
-          </p>
-        </div>
-      </div>
-      <hr>
       <div class='footer'>
         Rodrigo Vera 2013
       </div>

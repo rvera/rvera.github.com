@@ -1,0 +1,49 @@
+body
+{
+  padding-top:    20px;
+  padding-bottom: 40px;
+
+  .center
+  {
+    text-align: center;
+  }
+}
+
+.project
+{
+  .desc
+  {
+    text-align: justify;
+  }
+  .see_more
+  {
+    h3
+    {
+      margin-top: 0px;
+    }
+    ul.link_list
+    {
+      list-style:     none;
+      margin-left:    0px;
+      li
+      {
+        margin: 5px;
+      }
+    }
+  }
+}
+
+.small_project
+{
+  text-align: center;
+  img.thumb
+  {
+    margin: auto;
+    height: 250px;
+  }
+  p.desc
+  {
+    margin:  10px;
+    padding: 10px;
+  }
+}
