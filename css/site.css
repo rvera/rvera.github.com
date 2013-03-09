@@ -4,15 +4,17 @@ body {
   body .center {
     text-align: center; }
 
-.project .desc {
-  text-align: justify; }
-.project .see_more h3 {
-  margin-top: 0px; }
-.project .see_more ul.link_list {
-  list-style: none;
-  margin-left: 0px; }
-  .project .see_more ul.link_list li {
-    margin: 5px; }
+.project {
+  margin-bottom: 64px; }
+  .project .desc {
+    text-align: justify; }
+  .project .see_more h3 {
+    margin-top: 0px; }
+  .project .see_more ul.link_list {
+    list-style: none;
+    margin-left: 0px; }
+    .project .see_more ul.link_list li {
+      margin: 5px; }
 
 .small_project {
   text-align: center; }

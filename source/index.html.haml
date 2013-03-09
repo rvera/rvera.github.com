@@ -18,7 +18,7 @@
         %h1 
           Hi there!
         %p.lead
-          Thanks for stopping by. Here you'll find some of my personal projects I've worked on over the years.
+          Thanks for stopping by. Here you'll find some of the personal projects I've worked on over the years.
 
       .project
         .row
@@ -30,8 +30,8 @@
               Image Picker is a simple jQuery plugin that transforms a select element into a more 
               user-friendly graphical interface. I found myself using 'select' form elements a lot despite
               not really liking them that much; They don't either present all the available options in 
-              a good way nor are very user friendly on mobile devices (radio buttons are not really better).
-              This plugin was created to solve both of these problems, so far it works very well and seems
+              a good way nor are very user friendly on mobile devices (radio buttons are not better either).
+              This plugin was created to solve both of these problems, so far it works great and seems
               to well received by the web developer community.
             %h3 Check it out!
             %p
@@ -108,6 +108,43 @@
                   information to make better guessings about your current position.
         %hr
 
+
+      .project
+        .row
+          .span12
+            %h2 Radios Chile
+        .row
+          .span8
+            %p.desc
+              While living in the US I couldn't help but to feel a little homesick, combine that with 
+              a friend who wanted to learn Ruby on Rails and Radios Chile was born.
+            %p.desc
+              On the back end, the app is constantly crawling the radio streams in order to extract the 
+              metadata from them and update the current artist/song being played. The front end is updated
+              with a mix of AJAX and PJAX in order to not load the whole page with every update and
+              avoid reloading the external music playing libraries.
+          .span4
+            .see_more.well
+              %h3 Want to see more?
+              %ul.link_list
+                %li
+              %a.btn.btn-success{href: "http://radio.chilerocks.org/"}
+                Listen Online
+        .row
+          .span12
+            %h3 Screens
+        .row
+          .span6
+            %a{:href => "img/radios_chile.png"}
+              %img{src: "img/radios_chile.png"}
+          .span6
+            %p.muted
+              While listening, the information for every station is constantly updated with 
+              the metadata from each stream. Sadly some stations don't update the metadata as
+              much as we hoped, some don't even have metadata at all!
+        %hr
+
+
       .project
         .row
           .span12
@@ -141,7 +178,7 @@
               %img{src: "img/quiin.png"}
           .span2
             %p.muted
-              The main of the embedded Sinatra app shows the latests jobs and warns you if
+              The main screen of the embedded Sinatra app shows the latests jobs and warns you if
               any of them have failed.
           .span4
             %a{:href => "img/quiin2.png"}
@@ -159,25 +196,20 @@
         .row
           .span8
             %p.desc
-              This a game I made a long time ago for my sisters.
-              They were the best QA I ever had, seriously. It's a game that while challenging
-              you can't really die on it. It also employs a very simplistic one button contol method;
+              JCA a game I made a long time ago for my sisters; they were the best QA testers I ever had, seriously.
+              It's a game that while challenging doesn't punish you, in fact you can' die in the game at all. 
+              One of the most novel aspects of the game is that it employs a very simplistic one button contol method;
               just point in the direction where you want to jump and hold the mouse button, the 
               longer you hold it the stronger the jump will be.
-              %br
-              %br
+            %p.desc
               The game was built using GameMaker so it only works on Windows. It should 
               still work on modern machine but can't say for sure. Haven't used a Windows
-              machine in a long, long, time.
-              %br
-              %br
-              I did most of the programming and my girlfriend at the time helped
+              machine in a long, long time.
+            %p.desc
+              I did all of the programming and my girlfriend at the time helped
               me with the pixel art. We even won a contest with this game but I'm still waiting
-              for my first place prize, the sponsoring game company never gave it to me (if someone
+              for my first place prize. Rhe sponsoring game company never gave it to me (if someone
               from Wanako Studios/Behaviour Santiago is reading this, it's never too late!)
-            %h3 It even has an awesome trailer!
-            %p
-              <iframe width="640" height="480" src="http://www.youtube.com/embed/0Ucfzr1oi98" frameborder="0" allowfullscreen></iframe>
           .span4
             .see_more.well
               %h3 Want to see more?
@@ -190,6 +222,26 @@
                     1st prize winner!
               %a.btn.btn-success{href: "downloads/JumpingCat.exe"}
                 Download it
+        .row
+          .span12
+            %h3 It even has a trailer!
+        .row
+          .span8
+            %p
+              <iframe width="620" height="480" src="http://www.youtube.com/embed/0Ucfzr1oi98" frameborder="0" allowfullscreen></iframe>
+          .span4
+            %blockquote
+              %p "So awesome!"
+              %small
+                %cite My youngest sister
+            %blockquote
+              %p "I love it."
+              %small
+                %cite My other sister
+            %blockquote
+              %p "Meh. (but secretly loves it)"
+              %small
+                %cite My older, teenager, sister
         %hr
 
 
@@ -203,7 +255,7 @@
               %img.thumb.img-rounded.img-polaroid{src: "img/matrimonio.png"}
               %h3 Wedding Invitation
               %p.desc
-                This is a small Heroku app that I made over a weekend to invite, 
+                This is a small Heroku app that I made over a weekend to send, 
                 manage and track the invitations to my wedding.
               %p
                 %a.btn.btn-success{href: "http://rodrigoysara.herokuapp.com/invitacion/2e957f20-7530-012f-dbc1-12313926dced"}
@@ -215,7 +267,7 @@
               %p.desc
                 This is a small proof of concept game that I made while learning C++, 
                 OpenGL and SDL. Among the myriad of unfinished games I've made over the years
-                I actually like this one a lot.
+                I actually like this one a lot so I kept it around instead of just deleting it.
               %p
                 %a.btn.btn-success{href: "downloads/chalk_noir.rar"}
                   Download
