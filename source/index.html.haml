@@ -72,8 +72,7 @@
               EDIPS is the offspring of the knowledge I had with my passion at the time for
               indoor positioning systems. I'd love to work on a similar project now, the technology
               is much closer to the point of making a tool like this a reality.
-              %br
-              %br
+            %p.desc
               While similar applications exists, none of them are very practical when it comes to
               actually deploying them in the real world. EDIPS sacrifices some accuracy in order to
               actually make the initial deployment as fast as possible.
@@ -88,7 +87,7 @@
                 Download the paper
         .row
           .span12
-            %h3 Have some screens
+            %h3 Example Screens
             %ul.thumbnails
               %li.span3
                 .thumbnail
@@ -109,6 +108,49 @@
                   information to make better guessings about your current position.
         %hr
 
+      .project
+        .row
+          .span12
+            %h2 Quiin
+        .row
+          .span8
+            %p.desc
+              Quiin is a command line utility built in Ruby that monitors background processes
+              and it captures its exit code along with stdout and stderr output. This information is 
+              stored by Quiin and is accessed through the embeded Sinatra app.
+            %p.desc
+              It was built as a proof of concept for a very specific project and has not been maintained 
+              in a very long time.
+              The code is public in case it's of use to anyone else. If I ever have the need to
+              built a similar tool I'd love to clean up the code and gemify it.
+          .span4
+            .see_more.well
+              %h3 Want to see more?
+              %ul.link_list
+                %li
+                  %a{href: "https://github.com/rvera/quiin"}
+                    View on Github (abandoned)
+              %a.btn.btn-success{href: "https://github.com/rvera/quiin/archive/master.zip"}
+                Download it
+        .row
+          .span12
+            %h3 Example Screens
+        .row
+          .span4
+            %a{:href => "img/quiin.png"}
+              %img{src: "img/quiin.png"}
+          .span2
+            %p.muted
+              The main of the embeded Sinatra app shows the latests jobs and warns you if
+              any of them have failed.
+          .span4
+            %a{:href => "img/quiin2.png"}
+              %img{src: "img/quiin2.png"}
+          .span2
+            %p.muted
+              This is an example of a failed job. It shows the output along the exit code.
+
+        %hr
 
       .project
         .row
