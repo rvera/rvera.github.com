@@ -14,11 +14,29 @@
   %body
 
     .container
-      .page-header
-        %h1 
-          Hi there!
-        %p.lead
-          Thanks for stopping by. Here you'll find some of the personal projects I've worked on over the years.
+      .row
+        .span2
+          %img.img-circle{src: "https://secure.gravatar.com/avatar/a13f1d33b6dc5ec4baf5d549da5a74d6?s=200"}
+        .span10
+          %h1 
+            Hi there!
+          %p.lead
+            Thanks for stopping by. Here you'll find some of the personal projects I've worked on over the years.
+          .row
+            .span3
+              %p
+                Maybe you were looking for my professional information? 
+                You can check my linkedin profile. It's not very thorough but the basic
+                information is there.
+            .span2
+              %a{href: "http://www.linkedin.com/in/rodvera/"}
+                %img.thumb{src: "img/linkedin2.png"}
+            .span3
+              Or maybe you were looking for my github profile.
+            .span2
+              %a{href: "http://github.com/rvera"}
+                %img.thumb{src: "http://octodex.github.com/images/original.jpg"}
+              
 
       .project
         .row
@@ -56,7 +74,6 @@
                     View on Github
               %a.btn.btn-success{href: "https://github.com/rvera/image-picker/archive/master.zip"}
                 Download it
-        %hr
 
 
       .project
@@ -104,9 +121,8 @@
               %li.span3
                 %p.muted
                   The app takes advantage of the motion sensors on the device and communicates
-                  to other users whether you are still or moving around. It also uses this 
+                  to other users whether you are standing still or moving around. It also uses this 
                   information to make better guessings about your current position.
-        %hr
 
 
       .project
@@ -142,7 +158,6 @@
               While listening, the information for every station is constantly updated with 
               the metadata from each stream. Sadly some stations don't update the metadata as
               much as we hoped, some don't even have metadata at all!
-        %hr
 
 
       .project
@@ -187,7 +202,6 @@
             %p.muted
               This is an example of a failed job. It shows the output along the exit code.
 
-        %hr
 
       .project
         .row
@@ -242,7 +256,6 @@
               %p "Meh. (but secretly loves it)"
               %small
                 %cite My older, teenager, sister
-        %hr
 
 
       .small_projects
@@ -285,11 +298,10 @@
                 %a.btn.btn-success{href: "downloads/crazybuzz.jar"}
                   Download
           .span3
-        %hr
 
 
       .footer
-        %strong Rodrigo Vera 2013
+        &nbsp;
 
     :javascript
       var _gaq = _gaq || [];
